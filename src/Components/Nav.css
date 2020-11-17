@@ -1,0 +1,24 @@
+.search{
+    border-radius: 100px;
+    border: none;
+    outline-style: none;
+}
+.avatar{
+    border-radius: 100%;
+}
+.user a:hover{
+    text-decoration: none;
+}
+.user span{
+    color: white;
+    font-weight: 500;
+}
+.user img{
+    object-fit: contain;
+    height: 30px;
+}
+.updates{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -5px;
+}
