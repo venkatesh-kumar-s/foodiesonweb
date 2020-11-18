@@ -1,0 +1,11 @@
+.homeside{
+   position: fixed;
+   width: 22rem;
+   height: 100%;
+   overflow-y: auto;
+}
+.nav-item a{
+    font-weight: 600;
+    text-align: start;
+}
+

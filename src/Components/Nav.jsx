@@ -11,7 +11,7 @@ import {Link} from 'react-router-dom';
 function Nav() {
     return (
         <div>
-           <nav className="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+           <nav className="navbar navbar-expand-lg navbar-dark bg-nav shadow fixed-top">
             <div className="container-fluid py-0">
                 <Link to="/" className="navbar-brand">Foodbook</Link>
 
@@ -27,7 +27,7 @@ function Nav() {
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <form className="form-inline">
-                    <input className="search shadow-sm px-3 py-2" type="search" placeholder="Search Foodbook"/>
+                    <input className="search shadow-sm ml-3 px-3 py-1" type="search" placeholder="Search Foodbook"/>
                 </form>
                 <div className="collapse navbar-collapse justify-content-center" id="navContent">
                     <ul className="navbar-nav">
