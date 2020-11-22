@@ -1,3 +1,8 @@
+.create-post{
+    background-color: white;
+    border-radius: 15px;
+}
 .adjust{
     margin-top: -6px;
+    border-radius: 100%;
 }

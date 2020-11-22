@@ -5,6 +5,8 @@
     border-radius: 100px;
     border: none;
     outline-style: none;
+    background-color: steelblue;
+    color:white;
 }
 .avatar{
     border-radius: 100%;

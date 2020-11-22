@@ -1,15 +1,33 @@
 .App {
+  background-color: whitesmoke;
   text-align: center;
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar{
   width: 2px;
 }
 ::-webkit-scrollbar-track{
-  background-color: #a2d5f2;
+  background-color: whitesmoke;
 }
 ::-webkit-scrollbar-thumb{
   border-radius: 10px;
-  background-color: #16213e;
+  background-color:grey;
+}
+::-webkit-input-placeholder{
+  color: whitesmoke;
+}
+:-ms-input-placeholder{
+  color: whitesmoke;
+}
+::placeholder{
+  color: whitesmoke;
+}
+.chatbot{
+  position: fixed;
+  z-index: 1;
+  right: 1%;
+  bottom:2%;
+}
+.dropdown{
+  outline-style: none;
 }

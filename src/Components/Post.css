@@ -1,12 +1,15 @@
-
-.avatar{
+.post{
+  border-radius: 15px;
+  background-color: white;
+}
+.icon{
     border-radius: 100%;
     object-fit: contain;
-    height: 40px;
+    width: 100%;
 }
 .card-header{
     display: flex;
 }
 .avatar-data{
-  padding-left: 10px;  
+  margin-left: 0;
 }

@@ -7,6 +7,7 @@ import MarketPlace from './Components/MarketPlace';
 import Groups from './Components/Groups';
 import Games from './Components/Games';
 import UserHome from './Components/UserHome';
+import ChatBot from './Components/ChatBot';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           <Route path="/username" component={UserHome}/>
         </Switch>
       </Router>
+      <div className="chatbot">
+      <ChatBot/>
+      </div>
     </div>
   );
 }
