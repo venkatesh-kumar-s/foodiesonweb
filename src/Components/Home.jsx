@@ -6,6 +6,13 @@ import Post from './Post';
 import {FcInspection} from 'react-icons/fc';
 import AdvSuggestions from './AdvSuggestions';
 import CreatePost from './CreatePost';
+import {BrowserRouter as Router, Route, Switch, useRouteMatch} from 'react-router-dom';
+import Watch from './Watch';
+import MarketPlace from './MarketPlace';
+import Groups from './Groups';
+
+import UserHome from './UserHome';
+import Nav from './Nav';
 
 function Home() {
     const posts=[
@@ -55,13 +62,21 @@ function Home() {
         setPost(values);
     }
     
+    let {path,url} =useRouteMatch();
     return [
         <div className="row">
+            <Router>
+                <Nav/>
+                <Switch>
+                    <Route exact path={`${path}/:id`} component={Home}/>
+                </Switch>
+            </Router>
             <Helmet>
                 <title>Home | Foodbook</title>
             </Helmet>
             
             <div className="col-3 jumbotron-fluid pt-4"><HomeSide/></div>
+           
             <div className="col-5 jumbotron-fluid pt-5 my-4">
                 <CreatePost/>
                {post.map((restro,index)=>(

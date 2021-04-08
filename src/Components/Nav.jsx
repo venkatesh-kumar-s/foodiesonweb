@@ -15,7 +15,7 @@ function Nav() {
         <div>
            <nav className="navbar navbar-expand-lg navbar-dark bg-nav shadow py-1 fixed-top">
             <div className="container-fluid py-0">
-                <Link to="/" className="navbar-brand">Foodbook</Link>
+                <Link to="/home" className="navbar-brand">Foodbook</Link>
 
                 <button 
                 className="navbar-toggler" 
@@ -33,7 +33,7 @@ function Nav() {
                 </form>
                 <div className="collapse navbar-collapse mx-5" id="navContent">
                     <ul className="navbar-nav ml-5 pl-5">
-                        <li className="nav-item active"><Link to="/" className="p-0 mx-4 nav-link"><TiHome size="26"/></Link></li>
+                        <li className="nav-item active"><Link to="/home" className="p-0 mx-4 nav-link"><TiHome size="26"/></Link></li>
                         <li className="nav-item"><Link to="/watch" className="p-0 mx-4 nav-link"><BsCollectionPlayFill size="26"/><span className="updates badge badge-danger">4</span></Link></li>
                         <li className="nav-item"><Link to="/marketplace" className="p-0 mx-4 nav-link"><AiFillShop size="26"/><span className="updates badge badge-danger"></span></Link></li>
                         <li className="nav-item"><Link to="/groups" className="p-0 mx-4 nav-link"><HiUserGroup size="26"/><span className="updates badge badge-danger"></span></Link></li>
@@ -77,7 +77,7 @@ function Nav() {
                         <div className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownContent">
                             <a href="#" className="dropdown-item"><FcSettings/> Settings</a>
                             <div className="dropdown-divider"></div>
-                            <a href="#" className="dropdown-item"><BiLogOut/> sign Out</a>
+                            <Link to="/login" className="dropdown-item"><BiLogOut/> sign Out</Link>
                         </div>
                     </div>
                 </div>

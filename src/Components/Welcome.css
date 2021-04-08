@@ -1,0 +1,43 @@
+
+.login-panel,.register-panel{
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    right: 7%;
+    top: 50%;
+    transform: translatey(-50%);
+}
+.illustration{
+    background:linear-gradient(45deg, #f48c06, #f48c06,#ffba08) ;
+    z-index: 1;
+    border-radius: 20px 0 0 20px;
+}
+.dineout{
+    position: absolute;
+    object-fit: contain;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3%;
+}
+.orange{
+    position: absolute;
+    object-fit: contain;
+    width: 45%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -16%;
+}
+.login-with img{
+    object-fit: contain;
+    width: 2.5rem;
+    height: auto;
+}
+.signup{
+    position: absolute;
+    object-fit: contain;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3%;
+}
+
